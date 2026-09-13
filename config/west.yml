@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/M165437
     - name: gpeye
       url-base: https://github.com/GPeye
+    - name: mctechnology17
+      url-base: https://github.com/mctechnology17
   projects:
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
@@ -36,6 +38,9 @@ manifest:
       revision: v0.3.0
     - name: mario-peripheral-animation
       remote: gpeye
+      revision: main
+    - name: zmk-nice-oled
+      remote: mctechnology17
       revision: main
   self:
     path: config
